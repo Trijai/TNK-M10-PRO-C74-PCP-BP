@@ -1,6 +1,6 @@
 # TNK-M10-PRO-C74-PCP
 
-Class 74 PCP final code
+Class 74 PCP Boiler code
 
 To run the project follow the below commands:
 
