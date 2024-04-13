@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from cvzone.FaceDetectionModule import FaceDetector
 
 # Create a path variable to the path of your dataset
-path = "Pneumothorax-New-Dataset
+path = "Pneumothorax-New-Dataset"
 
 # Create empty images list and categories list
 infected = []
@@ -34,7 +34,8 @@ for img in os.listdir(path):
         # Append the image to images list
         if type == '0':
             infected.append(img)
-    else :
+        else :
+            uninfected.append(img)
         # Append the type to categories list
         
     # Add except block  
